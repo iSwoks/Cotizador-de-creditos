@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Cotizador de Créditos</title>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <form id="formulario">
+      <label for="monto">Monto del crédito:</label><br />
+      <input type="text" id="monto" /><br />
+      <label for="interes">Tasa de interés:</label><br />
+      <input type="text" id="interes" /><br />
+      <label for="plazo">Plazo (en meses):</label><br />
+      <input type="text" id="plazo" /><br />
+      <input type="button" value="Cotizar" onclick="calcularCredito()" />
+    </form>
+    <br />
+    <p>El resultado de la cotización es: <span id="resultado"></span></p>
+  </body>
+</html>
